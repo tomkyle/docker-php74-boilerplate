@@ -81,3 +81,11 @@ Shutdown:
 $ docker compose down
 ```
 
+Your project can now be reached via
+
+- **HTTPS: [https://localhost](https://localhost)**
+
+- **HTTP-only: [http://localhost:8080](http://localhost:8080)**
+
+  
+
