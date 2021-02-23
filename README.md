@@ -54,7 +54,7 @@ services:
     # Change as you need
     container_name: app
 
-		# The image from above Dockerfile
+    # The image from above Dockerfile
     image: php74
 
     # Assume "htdocs" being the public folder
