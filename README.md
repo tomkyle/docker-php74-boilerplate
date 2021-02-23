@@ -51,8 +51,10 @@ version: '3'
 services:
 
   app:
+    # Change as you need
     container_name: app
 
+		# The image from above Dockerfile
     image: php74
 
     # Assume "htdocs" being the public folder
@@ -64,5 +66,18 @@ services:
     ports:
       - "8080:80"
       - "443:443"
+```
+
+Go to project dir and start Docker machine:
+
+```bash
+$ cd ~/path/tp/app
+$ docker compose up
+```
+
+Shutdown:
+
+```bash
+$ docker compose down
 ```
 
