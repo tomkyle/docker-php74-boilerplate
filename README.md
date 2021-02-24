@@ -32,6 +32,8 @@ localhost 127.0.0.1 ::1
 
 ## Build docker image
 
+Use this section to build a Docker image. The image is also available on https://hub.docker.com/repository/docker/tomkyle/php74
+
 ```bash
 $ docker image build -t php74 .
 ```
